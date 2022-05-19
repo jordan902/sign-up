@@ -1,0 +1,18 @@
+body {
+    font-family: 'Josefin Slab', serif;
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.img {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    margin: 1%;
+    background: url('../images/kyle-johnson-TEZZzuQTt8g-unsplash.jpg');
+    background-size: cover;
+}
