@@ -10,14 +10,19 @@ body {
 
 .img {
     display: flex;
-    width: 50%;
+    flex-direction: row;
+    width: 70%;
     height: 100%;
-    margin: 1%;
+    margin: 20px;
     background: url('../images/kyle-johnson-TEZZzuQTt8g-unsplash.jpg') no-repeat center;
     background-size: cover;
     align-content: center;
     justify-content: center;
     border-radius: 5px;
-    
+   
+}
+.form {
+    overflow: auto;
+    width: 60%;
 }
 
