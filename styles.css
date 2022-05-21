@@ -74,3 +74,7 @@ form {
     width: 90%;
     
 }
+
+.inputs > :last-child {
+    padding-left: 10%;
+  }
