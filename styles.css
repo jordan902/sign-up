@@ -62,4 +62,8 @@ body {
     border: 2px solid mediumblue;
 }
 
-.form-input
+.inputs {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
