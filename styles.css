@@ -1,33 +1,72 @@
-body {
-    font-family: 'Josefin Slab', serif;
-    width: 100vw;
-    height: 100vw;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    margin-bottom: 20px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.img {
+body {
+    font-family: 'Josefin Slab', serif;
+    overflow: hidden;
     display: flex;
-    flex-direction: row;
-    width: 70%;
-    height: 50%;
-    margin: 20px;
-    background: url('../images/kyle-johnson-TEZZzuQTt8g-unsplash.jpg') no-repeat center;
-    background-size: cover;
-    align-content: center;
-    justify-content: center;
-    border-radius: 5px;
-  
+   
 }
+
+.png{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.container{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	overflow: hidden;
+    width: 40%;
+}
+
+.container> img {
+    max-height: 100vh;
+	object-fit: cover;
+}
+
+
+.banner {
+    position: absolute;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	top: 15%;
+	width: 40%;
+	padding: 8px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.banner h1 {
+	color: white;
+	margin: 0;
+	font-size: 3.5rem;
+	font-weight: 300;
+}
+
+.banner .logo {
+	height: 6rem;
+	min-width: auto;
+	object-fit: contain;
+}
+
+
+
 .form {
     overflow: auto;
     width: 60%;
     margin: 0;
     padding: 0;
-    margin-top: 5%;
+    margin-top: 2%;
+    height: 70%;
 }
 
 .form > * {
@@ -85,6 +124,7 @@ form {
     flex-direction: column;
     align-items: center;
     padding: 15px 30px;
+    margin-bottom: 20px;
     border-radius: 6px;
     border: none;
     font-size: 30px;
