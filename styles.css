@@ -26,3 +26,11 @@ body {
     width: 60%;
 }
 
+.form-label {
+    font-weight: 800;
+    font-size: 20px;
+    display: block;
+    transition: all 0.5s;
+    transform: translateY(-3.4rem);
+
+}
