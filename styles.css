@@ -34,3 +34,16 @@ body {
     transform: translateY(-3.4rem);
 
 }
+
+.form-input {
+    border: 2px solid black;
+    color: lightslategray;
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    border-radius: 00.2rem;
+    width: 100%;
+    display: block;
+    transition: all 0.5s;
+    margin-top: 5%;
+    padding-right: 10%;
+}
