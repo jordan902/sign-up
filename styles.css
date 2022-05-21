@@ -109,3 +109,12 @@ form {
   .login {
     color: #009900;
   }
+
+  .error {
+    border: 2px solid red;
+  }
+  .errorMessage {
+    font-size: 25px;
+    font-weight: 900;
+    color: red;
+  }
