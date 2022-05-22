@@ -18,4 +18,11 @@ inputs.forEach((item) => {
       }
     });
   });
-  
+
+  const submit = (e) => {
+      e.preventDefault();
+      console.log("submit");
+  };
+
+  const form = document.querySelector("form");
+  form.addEventListener("submit", submit);
