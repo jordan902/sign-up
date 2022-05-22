@@ -12,3 +12,7 @@ When all requirements are met, the form submits and refreshes.
 Using html & css to design the interface, the page is seperate with a left(hero) side, and a right(form) side.
 By centering a div behind a div I was able to create the hero side with a banner across the center.
 Using the form element in html, I was able to set up the form input structure while styling it with css.
+
+
+
+<img width="1440" alt="Screen Shot 2022-05-22 at 1 56 04 PM" src="https://user-images.githubusercontent.com/103457828/169706734-a57c3110-b5f2-49e0-8575-7b59afc84bee.png">
