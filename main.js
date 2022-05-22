@@ -40,13 +40,13 @@ inputs.forEach((item) => {
           "Password needs to be at least 8 characters long.";
         return;
       }
-      if (!password.value.match(/[a-z]/)) {
+      if (password.value.match(/[a-z]/)) {
         password.classList.add("error");
         errorMessage.textContent =
           "Password needs to have at least 1 lower case letter.";
         return;
       }
-      if (!password.value.match(/[A-Z]/)) {
+      if (password.value.match(/[A-Z]/)) {
         password.classList.add("error");
         errorMessage.textContent =
           "Password needs to have at least 1 upper case letter.";
