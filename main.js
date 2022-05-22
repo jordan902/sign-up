@@ -52,6 +52,10 @@ inputs.forEach((item) => {
           "Password needs to have at least 1 upper case letter.";
         return;
       }
+      errorMessage.textContent = "Form added successfully";
+      setTimeout(() => {
+        window.location.reload();
+     }, 5000);
     };
 
   const form = document.querySelector("form");
