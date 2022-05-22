@@ -46,7 +46,12 @@ inputs.forEach((item) => {
           "Password needs to have at least 1 lower case letter.";
         return;
       }
-
+      if (!password.value.match(/[A-Z]/)) {
+        password.classList.add("error");
+        errorMessage.textContent =
+          "Password needs to have at least 1 upper case letter.";
+        return;
+      }
     };
 
   const form = document.querySelector("form");
