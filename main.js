@@ -1,10 +1,8 @@
-const firstName = document.querySelector('#firstName');
-const lastName = document.querySelector('#lastName');
-const email =document.querySelector('#email');
+const email = document.querySelector('#email');
 const phone = document.querySelector('#phone');
 const password = document.querySelector('#password');
 const confirmPassword = document.querySelector('#confirm-password');
-const errorMessage = document.querySelector('#errorMessage');
+const errorMessage = document.querySelector('.errorMessage');
 
 const inputs = [email, phone, password, confirmPassword]
 
@@ -42,6 +40,13 @@ inputs.forEach((item) => {
           "Password needs to be at least 8 characters long.";
         return;
       }
+      if (!password.value.match(/[a-z]/)) {
+        password.classList.add("error");
+        errorMessage.textContent =
+          "Password needs to have at least 1 lower case letter.";
+        return;
+      }
+
     };
 
   const form = document.querySelector("form");
