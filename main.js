@@ -36,6 +36,12 @@ inputs.forEach((item) => {
         errorMessage.textContent = "Phone number needs to be exactly 10 numbers";
         return;
       }
+      if (password.value.length < 8) {
+        password.classList.add("error");
+        errorMessage.textContent =
+          "Password needs to be at least 8 characters long.";
+        return;
+      }
     };
 
   const form = document.querySelector("form");
